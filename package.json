@@ -1,0 +1,22 @@
+{
+  "name": "fancy-star-rating",
+  "version": "1.0.0",
+  "description": "Star or any other icon based rating component built on javascript, html and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build-scripts/src-server.js"
+  },
+  "keywords": [
+    "rating"
+  ],
+  "author": "arorarahul",
+  "license": "ISC",
+  "devDependencies": {
+	"eslint": "3.8.1",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-watch": "2.1.14",
+    "express": "^4.15.4",
+    "open": "0.0.5"
+  }
+}

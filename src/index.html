@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fancy star rating demo!</title>
+    <link rel="stylesheet" href="star-rating.css">
+</head>
+<body>
+     <h4>This is fancy star rating!</h4>
+
+	 <div id="el1" style="margin-bottom: 10px;">
+
+	</div>
+
+	<script src="star-rating.js"></script>
+	<script>
+		/**
+		 * Take the following parameters:
+		 * ratingElement: has to be an HTML element
+		 * currentRating: pass any rating value to be shown by default
+		 * maxRating: pass the maximum possible rating for the bar
+		 * callback function
+		*/
+		//Rating element will be attached to that selector
+		var elm1 = document.querySelector("#el1");
+		var elm2 = document.querySelector("#el2");
+		function callback() {
+			console.log("rating bar added successfully!");
+		}
+		rating({
+			el: elm1,
+			currentRating: 0,
+			maxRating: 10,
+			callback: function(curr) {
+				console.log("current rating is:", curr);
+			},
+
+			//Upcoming...
+			showRating: true,
+			stepSize: 0.5,
+			colors: []
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/*
+Star rating component css
+*/
+.main-container{
+	display: block;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.star-rating-container a{
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-right: 1px;
+    border-radius: 4px;
+}
+.star-rating-container div#rating-value span{
+	font-weight: 700;
+	padding-left: 10px;
+	line-height: 1.6;
+}
+
+/*
+Rating levels style
+*/
+.no-rate {
+    background: #C8CED3;
+}
+.rate-1 {
+    background: #CD1C26!important;
+}
+.rate-2 {
+    background: #DE1D0F!important;
+}
+.rate-3 {
+    background: #FF7800!important;
+}
+.rate-4 {
+    background: #FFBA00!important;
+}
+.rate-5 {
+    background: #CDD614!important;
+}
+.rate-6 {
+    background: #9ACD32!important;
+}
+.rate-7 {
+    background: #5BA829!important;
+}
+.rate-8 {
+    background: #3F7E00!important;
+}
+.rate-9 {
+    background: #305D02!important;
+}
+.rate-10 {
+    background: #1F3D00!important;
+}
